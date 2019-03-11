@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower-->
+    <!-- custom:css-->
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app.css">
+    <!-- endcustom-->
+    <title>angularPro</title>
+    <!-- bower:js-->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <!-- endbower-->
+</head>
+<body>
+    <div ng-app="my-app">
+        <div ng-view></div>
+    </div>
+    <!-- Custom:js-->
+    <script src="app.js" type="text/javascript"></script>
+    <script src="src/views/main/main.js"></script>
+    <script src="src/views/about/about.js"></script>
+    <script src="src/views/admin/admin.js"></script>
+    <script src="src/views/home/home.js"></script>
+    <script src="src/views/page/page.js"></script>
+    <!-- endcustom-->
+</body>
+</html>

@@ -1,0 +1,6 @@
+.box{
+    background:url("static/images/timg01.jpg") center center no-repeat;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
