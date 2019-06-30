@@ -1,5 +1,6 @@
 ### use angualrJs to build application
 #### 前言
+#### 添加一些测试的东西
 #### step1 架构选型
 	包管理工具 npm  bower   构建工具  grunt  版本控制工具 git
 #### step2 技术选型
